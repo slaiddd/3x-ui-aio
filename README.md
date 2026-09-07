@@ -96,7 +96,7 @@ docker compose up -d
 
 Для корректной работоспособности подписок Clash / Mihomo необходимо перейти в **Panel Settings -> Subscription** и настроить `Reverse Proxy URI` следующим образом:
 
-<img width="1683" height="654" alt="image" src="https://github.com/user-attachments/assets/c7cc7290-f132-47c4-8fd3-e52d72d437c4" />
+<img width="1105" height="578" alt="image" src="https://github.com/user-attachments/assets/c0e0fd27-cdc7-4d08-86e7-1b3d23be93da" />
 
 
 Не забудьте заменить `panel.example.com` на свой поддомен.
