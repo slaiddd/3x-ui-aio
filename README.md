@@ -84,13 +84,16 @@ docker compose up -d
 - **Dest (Target):** angie:2443
 - **SNI:** cloud.example.com
 
-![inbound](https://github.com/user-attachments/assets/dd85f07f-e627-4d88-b5b8-e918419e67e2)
+
+<img width="517" height="872" alt="image" src="https://github.com/user-attachments/assets/cab0e272-03ef-444f-b055-aee322a5e711" />
+<img width="501" height="888" alt="image" src="https://github.com/user-attachments/assets/6fae43d2-2580-43e4-8aa6-730776546697" />
+
 
 ### 8. Подписка
 
 Для корректной работоспособности подписок 3x-ui, необходимо перейти в **Panel Settings -> Subscription** и настроить `Reverse Proxy URI` следующим образом:
 
-<img width="863" height="69" alt="image" src="https://github.com/user-attachments/assets/d5356e6c-6994-4767-8a8d-a07f64183cf4" />
+<img width="1667" height="729" alt="image" src="https://github.com/user-attachments/assets/02f550e6-5074-4419-be82-4995a6d85f1f" />
 
 
 
@@ -101,13 +104,3 @@ docker compose up -d
 
 Не забудьте заменить `panel.example.com` на свой поддомен.
 
-## Пожертвования
-- Банковской картой
-<a href="https://pay.cloudtips.ru/p/b39a3fbb" target="_blank" rel="noreferrer noopener">
-    <img width="347" height="107" alt="donation-ct-button-white" src="https://github.com/user-attachments/assets/71e01df1-5ecd-426e-b20a-c99b773d22b7" />
-</a>
-
-- Криптовалютой
-<a href="https://nowpayments.io/donation?api_key=14556cdd-8b40-4252-abdd-eba3a6bcacb2" target="_blank" rel="noreferrer noopener">
-    <img src="https://nowpayments.io/images/embeds/donation-button-white.svg" alt="Cryptocurrency & Bitcoin donation button by NOWPayments">
-</a>
