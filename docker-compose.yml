@@ -3,8 +3,8 @@ services:
     image: docker.angie.software/angie:1.9.1
     container_name: angie
     ports:
-      - "0.0.0.0:80:80"
-      - "0.0.0.0:443:443"
+      - "80:80"
+      - "443:443"
     volumes:
       - ./angie.conf:/etc/angie/angie.conf
       - ./options-ssl-angie.conf:/etc/angie/options-ssl-angie.conf
@@ -37,6 +37,11 @@ services:
 networks:
   3x-ui-aio-network:
     name: 3x-ui-aio-network
+    enable_ipv6: true
+    ipam:
+      config:
+        - subnet: 172.25.0.0/24
+        - subnet: fd00:172:25::/64
 
 volumes:
   3x-ui-aio-volume:
