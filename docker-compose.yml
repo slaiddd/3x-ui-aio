@@ -30,6 +30,7 @@ services:
   authorization-stub:
     image: ampetelin/authorization-stub:latest
     container_name: authorization-stub
+    command: waitress-serve --listen=*:5000 app:app
     networks:
       - 3x-ui-aio-network
     restart: unless-stopped
